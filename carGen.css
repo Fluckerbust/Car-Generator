@@ -9,14 +9,18 @@ body {
     flex-direction: block;
     margin: 0 auto;
     width: 80%;
-    height: 800px;
+    height: auto;
     background-color: #272A2A;
     text-align: center;
     font-family: 'Oswald', sans-serif;
     color: #EF6234;
     font-size: 4em;
     font-weight: 400;
-    
+    padding-bottom: 50px;
+    border-left: #75828B 3px solid ;
+    border-bottom: #4E5255 3px solid;
+    border-right: #4E5255 3px solid;
+    border-top: #75828B 3px solid;
   }
 
   form label {
@@ -38,7 +42,7 @@ body {
   td {
     font-weight: 200;
     font-size: .325em;
-    
+    width: 33%;
     
   }
 
@@ -49,4 +53,50 @@ body {
     font-weight: 500;
     padding: 10px;
     font-size: .25em;
+    border-left: #75828B 3px solid ;
+    border-bottom: #4E5255 3px solid;
+    border-right: #4E5255 3px solid;
+    border-top: #75828B 3px solid;
   }
+   
+  .foot {
+    display: absolute;
+    bottom: 0px;
+    font-size: 3em;
+    width: 75%;
+    border: #272A2A 3px solid;
+    
+  }
+  .foot table{
+    
+    width: 80%;
+  }
+
+  .foot td {
+    width: 50%;
+    
+  }
+  .left {
+    border-right: 3px #272A2A solid;
+    margin-right: 3px;
+text-align: right;   
+    padding-right: 15px;
+  }
+  .right {
+    border-left: 3px #272A2A solid;
+    margin-left: 3px;
+   text-align: left;
+   padding-left: 15px;
+  }
+
+  .foot td div {
+    
+    font-size: 2em;
+  }
+
+  .foot td div a {
+    
+    font-size: 2em;
+    color:#EF6234
+  }
+  
