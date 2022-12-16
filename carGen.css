@@ -14,7 +14,7 @@ body {
     text-align: center;
     font-family: 'Oswald', sans-serif;
     color: #EF6234;
-    font-size: 4em;
+    font-size: 3.5em;
     font-weight: 400;
    
     border-left: #75828B 3px solid ;
@@ -23,10 +23,7 @@ body {
     border-top: #75828B 3px solid;
   }
 
-  form label {
-    font-weight: 200;
-    font-size: .75em;
-  }
+  
  figure {
   background-color: #4E5255;
   padding: 25px;
@@ -47,13 +44,16 @@ body {
   th {
     font-weight: 200;
     font-size: .75em;
-    border-bottom: #272A2A 3px solid;
+    
     letter-spacing: 15px;
   }
+ 
   td {
     font-weight: 200;
-    font-size: .325em;
+    font-size: .5em;
     width: 33%;
+    background-color: #272A2A;
+    padding: 10px 0;
     
   }
 
