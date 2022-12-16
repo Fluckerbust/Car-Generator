@@ -21,6 +21,7 @@ const cars = ( brand) => {
 const randomizer = () => {
   let b = Math.floor(Math.random() * brandCount)
   let aM = Math.floor(Math.random() * acuraModels.length)
+  let bM = Math.floor(Math.random() * bentleyModels.length)
   let rCA = Math.floor(Math.random() * cars().brand['Acura'].color.length)
   let rCB = Math.floor(Math.random() * cars().brand['Bentley'].color.length)
 
@@ -33,14 +34,9 @@ console.log(rCB)
         return cars().brand['Acura'], cars().brand['Acura'].model[aM], cars().brand['Acura'].color[rCA],
         console.log(Object.keys(cars().brand)[b] + ' ' + cars().brand['Acura'].model[aM] + ' ' +  cars().brand['Acura'].color[rCA])
       }  if (Object.keys(cars().brand)[b] === 'Bentley') {
-    return cars().brand['Bentley'], cars().brand['Bentley'].model[aM], cars().brand['Bentley'].color[rCB],
-    console.log(Object.keys(cars().brand)[b] + ' ' + cars().brand['Bentley'].model[aM]+ ' ' + cars().brand['Bentley'].color[rCB])
+    return cars().brand['Bentley'], cars().brand['Bentley'].model[bM], cars().brand['Bentley'].color[rCB],
+    console.log(Object.keys(cars().brand)[b] + ' ' + cars().brand['Bentley'].model[bM]+ ' ' + cars().brand['Bentley'].color[rCB])
   }
-
-
-
-   
-
 }
 
 
