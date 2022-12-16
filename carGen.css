@@ -44,7 +44,7 @@ body {
   th {
     font-weight: 200;
     font-size: .75em;
-    
+    border-bottom: 3px #272A2A solid;
     letter-spacing: 15px;
   }
  
