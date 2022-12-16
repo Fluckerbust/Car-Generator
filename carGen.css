@@ -1,0 +1,51 @@
+body {
+    background-color:#40413E;
+    color:white;
+    
+  }
+
+  .container {
+    display:flexbox;
+    flex-direction: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 800px;
+    background-color: #272A2A;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: #EF6234;
+    font-size: 4em;
+    font-weight: 400;
+    
+  }
+
+  form label {
+    font-weight: 200;
+    font-size: .75em;
+  }
+ 
+  table {
+    background-color: #4E5255;
+    width: 100%;
+    
+  }
+  th {
+    font-weight: 200;
+    font-size: .75em;
+    border-bottom: #272A2A 3px solid;
+    
+  }
+  td {
+    font-weight: 200;
+    font-size: .5em;
+    
+    
+  }
+
+  button {
+    height: 3em;
+    background-color: #75828B;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+  }
