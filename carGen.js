@@ -42,9 +42,9 @@ const randomizer = () => {
         return cars().brand['Acura'], 
         cars().brand['Acura'].model[aM], 
         cars().brand['Acura'].color[rCA], 
-        document.getElementById("brand").innerHTML = "Acura",
-        document.getElementById("model").innerHTML = cars().brand['Acura'].model[bM],
-        document.getElementById("color").innerHTML = cars().brand['Acura'].color[rCB],
+        document.getElementById("brandCell").innerHTML = "Acura",
+        document.getElementById("modelCell").innerHTML = cars().brand['Acura'].model[aM],
+        document.getElementById("colorCell").innerHTML = cars().brand['Acura'].color[rCB],
         document.getElementById("container").style.color = cars().brand['Acura'].hexColor[rCB],
         console.log('Brand: ' + Object.keys(cars().brand)[b] + ' Model: ' + cars().brand['Acura'].model[aM] + ' color: ' +  cars().brand['Acura'].color[rCA])
       }  
@@ -52,9 +52,9 @@ const randomizer = () => {
     return cars().brand['Bentley'], 
     cars().brand['Bentley'].model[bM], 
     cars().brand['Bentley'].color[rCB], 
-    document.getElementById("brand").innerHTML = "Bentley",
-    document.getElementById("model").innerHTML =  cars().brand['Bentley'].model[bM],
-    document.getElementById("color").innerHTML =  cars().brand['Bentley'].color[rCB],
+    document.getElementById("brandCell").innerHTML = "Bentley",
+    document.getElementById("modelCell").innerHTML =  cars().brand['Bentley'].model[bM],
+    document.getElementById("colorCell").innerHTML =  cars().brand['Bentley'].color[rCB],
     document.getElementById("container").style.color = cars().brand['Bentley'].hexColor[rCB], 
     console.log('Brand: ' + Object.keys(cars().brand)[b] + ' Model: ' + cars().brand['Bentley'].model[bM]+ ' color: ' + cars().brand['Bentley'].color[rCB])
   } 

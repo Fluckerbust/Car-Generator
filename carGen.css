@@ -26,18 +26,18 @@ body {
  
   table {
     background-color: #4E5255;
-    width: 100%;
-    
+    width: 90%;
+    margin: 0 auto;
   }
   th {
     font-weight: 200;
     font-size: .75em;
     border-bottom: #272A2A 3px solid;
-    
+    letter-spacing: 15px;
   }
   td {
     font-weight: 200;
-    font-size: .5em;
+    font-size: .325em;
     
     
   }
@@ -48,4 +48,5 @@ body {
     color: white;
     font-weight: 500;
     padding: 10px;
+    font-size: .25em;
   }
