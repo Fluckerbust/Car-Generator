@@ -27,11 +27,22 @@ body {
     font-weight: 200;
     font-size: .75em;
   }
- 
+ figure {
+  background-color: #4E5255;
+  padding: 25px;
+ }
+ figure img {
+  width: 100%;
+  height: auto;
+  border: #272A2A 3px solid;
+  background-color: #272A2A;
+  
+ }
   table {
     background-color: #4E5255;
     width: 90%;
     margin: 0 auto;
+    
   }
   th {
     font-weight: 200;
@@ -53,10 +64,10 @@ body {
     font-weight: 500;
     padding: 10px;
     font-size: .25em;
-    border-left: #75828B 3px solid ;
-    border-bottom: #4E5255 3px solid;
-    border-right: #4E5255 3px solid;
-    border-top: #75828B 3px solid;
+    border-left: #272A2A 3px solid ;
+    border-bottom: #2F2F2C 3px solid;
+    border-right: #2F2F2C 3px solid;
+    border-top: #272A2A 3px solid;
   }
    
   .foot {
