@@ -18,6 +18,7 @@ const cars = ( brand) => {
     var acuraModels = cars().brand['Acura'].model
     var bentleyModels = cars().brand['Bentley'].model
     let brandCount= Object.keys(cars().brand).length
+    
 const randomizer = () => {
   let b = Math.floor(Math.random() * brandCount)
   let aM = Math.floor(Math.random() * acuraModels.length)
