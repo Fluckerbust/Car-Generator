@@ -7,8 +7,8 @@ const cars = ( brand) => {
                   },
       'Bentley':{
                   model: ['Continental GT', 'Flying Spur', 'Bentayga'],  
-                  color: ['Moroccan Blue', 'Extreme Silver', 'Black Crystal', 'St. James Red', 'Ghost White'],
-                  hexColor: ['#1841E6', '#A8A9AD', '#000000', '#B62232', '#ffffff'],
+                  color: ['Azure', 'Extreme Silver', 'Black Crystal', 'St. James Red', 'Ghost White'],
+                  hexColor: ['#00039C', '#A8A9AD', '#000000', '#B62232', '#ffffff'],
                   }, 
         'Toyota': {
                   model:['Supra GR', 'Corolla GR', 'Camry'],
