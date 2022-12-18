@@ -27,7 +27,6 @@ body {
     color: #EF6234;
     font-size: 3.5em;
     font-weight: 400;
-   
     border-left: #75828B 3px solid ;
     border-bottom: #4E5255 3px solid;
     border-right: #4E5255 3px solid;
@@ -79,6 +78,7 @@ body {
     border-bottom: #2F2F2C 3px solid;
     border-right: #2F2F2C 3px solid;
     border-top: #272A2A 3px solid;
+    margin-bottom: 25px;
   }
    
   .foot {
