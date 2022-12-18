@@ -34,19 +34,9 @@ body {
   }
 
   
- figure {
-  background-color: #4E5255;
-  padding: 25px;
- }
- figure img {
-  width: 100%;
-  height: auto;
-  border: #272A2A 3px solid;
-  background-color: #272A2A;
-  
- }
+
   table {
-    background-color: #4E5255;
+    background-color: #777b7e;
     width: 90%;
     margin: 0 auto;
     
