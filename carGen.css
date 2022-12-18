@@ -4,6 +4,17 @@ body {
     
   }
 
+.title {
+  margin: 10px auto 50px;
+  text-align: center;
+  width:33%;
+  background-color: transparent;
+  color: white;
+  padding: 30px;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px;
+}
+
   .container {
     display:flexbox;
     flex-direction: block;
