@@ -70,7 +70,7 @@ const randomizer = () => {
           document.getElementById("brandCell").innerHTML = "Acura",
           document.getElementById("modelCell").innerHTML = cars().brand['Acura'].model[aM],
           document.getElementById("colorCell").innerHTML = cars().brand['Acura'].color[rCA],
-          document.getElementById("title").style.backgroundColor = cars().brand['Acura'].hexColor[rCB],
+          document.getElementById("title").style.backgroundColor = cars().brand['Acura'].hexColor[rCA],
           document.getElementById("container").style.color = cars().brand['Acura'].hexColor[rCA],
         console.log('Brand: ' + Object.keys(cars().brand)[b] + ' Model: ' + cars().brand['Acura'].model[aM] + ' color: ' +  cars().brand['Acura'].color[rCA])
       }  
