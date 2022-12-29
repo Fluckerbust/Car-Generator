@@ -74,7 +74,7 @@ body {
 
     color: white;
     text-shadow: black 5px 5px 5px 5px;
-    opacity: .5;
+    
     font-weight: 600;
     padding: 10px;
     font-size: .25em;
@@ -92,7 +92,7 @@ body {
   button:hover {
     background-color: #272a2a;
     opacity: 1;
-  
+    opacity: .5;
     text-shadow: white 1px 1px 2px 2px;
     border-left: #777b7e 3px solid ;
     border-bottom: #4E5255 3px solid;
@@ -100,13 +100,10 @@ body {
     border-top: #777b7e 3px solid;
     
   }
-  #chat::after {
-    background-image: linear-gradient(to right, #272A2A 0%,  #4E5255 51%, #777b7e  100%);
-    
-  }
+  
   
   button:active {
-    
+    opacity: .5;
     transform: scale(0.95);
     border-left: #4E5255 3px solid ;
     border-bottom: #777b7e 3px solid;
@@ -148,6 +145,9 @@ text-align: right;
   .foot th {
     font-size: .65em;
   }
+  .foot td {
+    width: 50%
+  }
 
   .foot td div {
     
@@ -156,7 +156,7 @@ text-align: right;
 
   .foot td div a {
     
-    font-size: 1.5em;
+    font-size: 1.25em;
     color:#fff;
     text-decoration: none;
   }
