@@ -46,6 +46,7 @@ body {
     font-size: .75em;
     border-bottom: 3px #272A2A solid;
     letter-spacing: 15px;
+    text-shadow: black 1.5px 1px;
   }
  
   td {
@@ -53,7 +54,7 @@ body {
     font-size: .5em;
     width: 33%;
    
-    
+    text-shadow: black 1px 0.5px;
     
   }
 

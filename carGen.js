@@ -84,7 +84,8 @@ const randomizer = () => {
           document.getElementById("title").style.backgroundColor = cars().brand['Bentley'].hexColor[rCB], 
           document.getElementById("container").style.color = cars().brand['Bentley'].hexColor[rCB],
         console.log('Brand: ' + Object.keys(cars().brand)[b] + ' Model: ' + cars().brand['Bentley'].model[bM]+ ' color: ' + cars().brand['Bentley'].color[rCB])
-  } if (Object.keys(cars().brand)[b] === 'Toyota') {
+  } 
+  if (Object.keys(cars().brand)[b] === 'Toyota') {
         return cars().brand['Toyota'], 
           cars().brand['Toyota'].model[aM], 
           cars().brand['Toyota'].color[rCA],
@@ -94,7 +95,8 @@ const randomizer = () => {
           document.getElementById("title").style.backgroundColor = cars().brand['Toyota'].hexColor[rCT], 
           document.getElementById("container").style.color = cars().brand['Toyota'].hexColor[rCT],
         console.log(Object.keys(cars().brand)[b] + ' ' + cars().brand['Toyota'].model[tM] + ' ' +  cars().brand['Toyota'].color[rCT])
-  } if (Object.keys(cars().brand)[b] === 'Koenigsegg') {
+  } 
+  if (Object.keys(cars().brand)[b] === 'Koenigsegg') {
         return cars().brand['Koenigsegg'], 
           cars().brand['Koenigsegg'].model[bM], 
           cars().brand['Koenigsegg'].color[rCB],
