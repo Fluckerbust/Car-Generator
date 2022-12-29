@@ -98,7 +98,7 @@ const randomizer = () => {
           document.getElementById("randomButton").style.backgroundColor = cars().brand['Bentley'].hexColor[rCB], 
 
           document.getElementById("randomButton").addEventListener("hover", function() {document.getElementById("randomButton").style.backgroundColor = cars().brand['Bentley'].hexColor[rCB]}),
-          //document.getElementById("randomButton").style.color =cars().brand['Bentley'].hexColor[rCB],
+       
           document.body.style.backgroundColor  = cars().brand['Bentley'].hexColor[rCB],
           
         console.log('Brand: ' + Object.keys(cars().brand)[b] + ' Model: ' + cars().brand['Bentley'].model[bM]+ ' color: ' + cars().brand['Bentley'].color[rCB])
