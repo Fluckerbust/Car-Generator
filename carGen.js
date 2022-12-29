@@ -2,25 +2,25 @@ const cars = ( brand) => {
     return {
         brand: {
         'Acura': {model:['MDX', 'NSX', 'TSX'],
-                  color:['Apex Blue Pearl', 'Lunar Silver Metallic', 'Majestic Black Pearl', 'Performance Red Pearl', 'Platinum White Pearl'],
-                  hexColor:['#00039C', '#aaa9ad', '#000000', '#D53942', '#ffffff'],
+                  color:['Apex Blue Pearl', 'Lunar Silver Metallic', 'Majestic Black Pearl', 'Performance Red Pearl', ],
+                  hexColor:['#00039C', '#aaa9ad', '#000000', '#D53942', ],
                   },
       'Bentley':{
                   model: ['Continental GT', 'Flying Spur', 'Bentayga'],  
-                  color: ['Azure', 'Extreme Silver', 'Black Crystal', 'St. James Red', 'Ghost White'],
-                  hexColor: ['#00039C', '#A8A9AD', '#000000', '#D53942', '#ffffff'],
+                  color: ['Azure', 'Extreme Silver', 'Black Crystal', 'St. James Red', ],
+                  hexColor: ['#00039C', '#A8A9AD', '#000000', '#D53942', ],
                   }, 
         'Toyota': {
                   model:['Supra GR', 'Corolla GR', 'Camry'],
-                  color:['Smoke Gray', 'Stratosphere Blue', 'Midnight Black Metallic', 'Supersonic Red', "Toyota White"],
-                  hexColor:['#535753', '#00039C', '#000000', '#ff0000', '#ffffff'],
+                  color:['Smoke Gray', 'Stratosphere Blue', 'Midnight Black Metallic', 'Supersonic Red', ],
+                  hexColor:['#535753', '#00039C', '#000000', '#ff0000', ],
                   },
                   
                   
       'Koenigsegg':{
                   model: ['Jesko', 'Gemera', 'CC850'],  
-                  color: ['Carbon Fiber', 'Midnight Purple', 'Burnt Orange Metallic', 'Black Crystal', 'Oxford White'],
-                  hexColor:['#2e2e2e', '#442777', '#EF6234', '#000000', '#f1f3f1'],
+                  color: ['Carbon Fiber', 'Midnight Purple', 'Burnt Orange Metallic', 'Black Crystal', ],
+                  hexColor:['#2e2e2e', '#442777', '#EF6234', '#000000',],
                   },
     }
 }
@@ -68,10 +68,22 @@ const randomizer = () => {
           cars().brand['Acura'].model[aM], 
           cars().brand['Acura'].color[rCA], 
           document.getElementById("brandCell").innerHTML = "Acura",
+
           document.getElementById("modelCell").innerHTML = cars().brand['Acura'].model[aM],
+
           document.getElementById("colorCell").innerHTML = cars().brand['Acura'].color[rCA],
+
           document.getElementById("title").style.backgroundColor = cars().brand['Acura'].hexColor[rCA],
+
           document.getElementById("container").style.color = cars().brand['Acura'].hexColor[rCA],
+
+          document.getElementById("randomButton").style.backgroundColor = cars().brand['Acura'].hexColor[rCA], 
+
+          document.getElementById("randomButton").addEventListener("hover", function() {document.getElementById("randomButton").style.backgroundColor = cars().brand['Acura'].hexColor[rCA]}),
+          ///document.getElementById("randomButton").style.color = cars().brand['Acura'].hexColor[rCA],
+          document.body.style.backgroundColor  = cars().brand['Acura'].hexColor[rCA],
+          
+          
         console.log('Brand: ' + Object.keys(cars().brand)[b] + ' Model: ' + cars().brand['Acura'].model[aM] + ' color: ' +  cars().brand['Acura'].color[rCA])
       }  
     if (Object.keys(cars().brand)[b] === 'Bentley') {
@@ -83,6 +95,12 @@ const randomizer = () => {
           document.getElementById("colorCell").innerHTML =  cars().brand['Bentley'].color[rCB],
           document.getElementById("title").style.backgroundColor = cars().brand['Bentley'].hexColor[rCB], 
           document.getElementById("container").style.color = cars().brand['Bentley'].hexColor[rCB],
+          document.getElementById("randomButton").style.backgroundColor = cars().brand['Bentley'].hexColor[rCB], 
+
+          document.getElementById("randomButton").addEventListener("hover", function() {document.getElementById("randomButton").style.backgroundColor = cars().brand['Bentley'].hexColor[rCB]}),
+          //document.getElementById("randomButton").style.color =cars().brand['Bentley'].hexColor[rCB],
+          document.body.style.backgroundColor  = cars().brand['Bentley'].hexColor[rCB],
+          
         console.log('Brand: ' + Object.keys(cars().brand)[b] + ' Model: ' + cars().brand['Bentley'].model[bM]+ ' color: ' + cars().brand['Bentley'].color[rCB])
   } 
   if (Object.keys(cars().brand)[b] === 'Toyota') {
@@ -94,6 +112,11 @@ const randomizer = () => {
           document.getElementById("colorCell").innerHTML =  cars().brand['Toyota'].color[rCT],
           document.getElementById("title").style.backgroundColor = cars().brand['Toyota'].hexColor[rCT], 
           document.getElementById("container").style.color = cars().brand['Toyota'].hexColor[rCT],
+          document.getElementById("randomButton").style.backgroundColor = cars().brand['Toyota'].hexColor[rCT], 
+
+          document.getElementById("randomButton").addEventListener("hover", function() {document.getElementById("randomButton").style.backgroundColor = cars().brand['Toyota'].hexColor[rCT]}),
+          //document.getElementById("randomButton").style.color =cars().brand['Toyota'].hexColor[rCT],
+          document.body.style.backgroundColor  = cars().brand['Toyota'].hexColor[rCT],
         console.log(Object.keys(cars().brand)[b] + ' ' + cars().brand['Toyota'].model[tM] + ' ' +  cars().brand['Toyota'].color[rCT])
   } 
   if (Object.keys(cars().brand)[b] === 'Koenigsegg') {
@@ -105,6 +128,11 @@ const randomizer = () => {
           document.getElementById("colorCell").innerHTML =  cars().brand['Koenigsegg'].color[rCK],
           document.getElementById("title").style.backgroundColor = cars().brand['Koenigsegg'].hexColor[rCK], 
           document.getElementById("container").style.color = cars().brand['Koenigsegg'].hexColor[rCK], 
+          document.getElementById("randomButton").style.backgroundColor = cars().brand['Koenigsegg'].hexColor[rCK], 
+
+          document.getElementById("randomButton").addEventListener("hover", function() {document.getElementById("randomButton").style.backgroundColor = cars().brand['Koenigsegg'].hexColor[rCK]}),
+         // document.getElementById("randomButton").style.color =cars().brand['Koenigsegg'].hexColor[rCK],
+          document.body.style.backgroundColor  = cars().brand['Koenigsegg'].hexColor[rCK],
         console.log(Object.keys(cars().brand)[b] + ' ' + cars().brand['Koenigsegg'].model[kM]+ ' ' + cars().brand['Koenigsegg'].color[rCK])
   }
 }
